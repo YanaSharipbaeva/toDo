@@ -1,0 +1,65 @@
+body{
+    color:#303030;
+}
+
+.wrapper {
+    max-width: 500px;
+    margin: 100px auto;
+    .task-wrapper {
+        padding: 15px 0;
+        background: #FDFAC3;
+        margin: 15px 0;
+        border-radius: 5px;
+        .task{
+            &-title{
+                font-weight: bold;
+                font-size: 18px;
+            }
+            &-text{
+                font-size: 16px;
+                letter-spacing: 1px;
+            }
+            &-field{
+
+            }
+        }
+        .input-group{
+            margin-top: 10px;
+        }
+    }
+}
+
+.remove-icon {
+    background:url(../img/svg/cross.svg) no-repeat  center;
+    background-size: 45%;
+    width:24px;
+    height:24px;
+}
+
+.edit-icon {
+    background:url(../img/svg/edit.svg) no-repeat  center;
+    background-size: 45%;
+    width:24px;
+    height:24px;
+}
+
+.btn-crd {
+    display: inline-block;
+    cursor:pointer;
+    border-radius: 5px;
+  &__wrapper{
+    text-align: right;
+  }
+  &__red-border{
+    border: 1px solid #F08BAF;
+  }
+  &__blue-border{
+    border: 1px solid #09C5F9;
+  }
+  &__blue-bg {
+    background: #09C5F9;
+    color:#000;
+    font-weight: bold;
+  }
+}
+
