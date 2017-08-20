@@ -10,7 +10,7 @@ let mainModule = angular.module('main', [
 .config(['$stateProvider', function ($stateProvider) {
     $stateProvider
         .state('main', {
-            url: 'https://yanasharipbaeva.github.io/toDoTask/',
+            url: 'https://yanasharipbaeva.github.io/toDoTask/main',
             component: 'main'
         });
 }])

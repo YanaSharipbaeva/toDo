@@ -13,7 +13,7 @@ app.service('TaskService', TaskService);
 app.config(['$stateProvider', function ($stateProvider ) {
     $stateProvider
         .state('/main', {
-            url: 'https://yanasharipbaeva.github.io/toDoTask/',
+            url: 'https://yanasharipbaeva.github.io/toDoTask/main',
             templateUrl: 'js/app/components/main/main.html'
         })
 
