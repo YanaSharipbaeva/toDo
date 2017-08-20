@@ -1,7 +1,4 @@
 This is an angular application with the list of tasks, possibility to add, edit, remove, sort tasks.
-In Cart we can see the list of chosen goods and their summary price.
-We cad remove good from the Cart.
-On page History we can see the date of submitted order and sort goods by date.
 
 To setup the app, you need:
 1) clone the project
