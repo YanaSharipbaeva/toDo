@@ -7,5 +7,3 @@ To setup the app, you need:
 3) node server -- to up server
 4) go to http://localhost:3000/
 
-to watch files while development -- webpack -w# toDo
-
