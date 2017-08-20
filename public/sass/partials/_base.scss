@@ -1,0 +1,44 @@
+.links-container {
+    margin: 20px 0 auto;
+    text-align: center;
+}
+
+.book-icon {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background: url("../img/svg/book.svg") no-repeat center;
+    background-size: contain;
+
+}
+
+.author-icon {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background: url("../img/svg/user-male-black-shape.svg") no-repeat center;
+    background-size: contain;
+
+}
+
+.nav-link {
+    display: inline-block;
+    margin: 10px;
+    .nav-link__text{
+        font-size: 18px;
+        font-weight: bold;
+        color: #265dcd;
+    }
+}
+
+.info-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/*
+p {
+    color: #766799;
+}*/
