@@ -10,12 +10,5 @@ To setup the app, you need:
 3) node server -- to up server
 4) go to http://localhost:3000/
 
-<<<<<<< HEAD
 to watch files while development -- webpack -w# toDo
-=======
-to watch files while development -- webpack -w
->>>>>>> 841ec5674effaa727cba43ef162492654bed68cc
-# sphariab.io
-# sphariab.io
-# toDo
-# toDo
+
